@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13129591E0926E80058147D /* Precipitation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13129571E0926E80058147D /* Precipitation.cpp */; };
+		D131295C1E092D650058147D /* WorldMapReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D131295A1E092D650058147D /* WorldMapReader.cpp */; };
 		D1733F8D1DE453A6008EDF25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1733F8C1DE453A6008EDF25 /* main.cpp */; };
 		D1C78DD71DF26CE700B07EAD /* DEM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C78DD51DF26CE700B07EAD /* DEM.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D13129571E0926E80058147D /* Precipitation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Precipitation.cpp; sourceTree = "<group>"; };
+		D13129581E0926E80058147D /* Precipitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precipitation.h; sourceTree = "<group>"; };
+		D131295A1E092D650058147D /* WorldMapReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldMapReader.cpp; sourceTree = "<group>"; };
+		D131295B1E092D650058147D /* WorldMapReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldMapReader.h; sourceTree = "<group>"; };
 		D1733F891DE453A6008EDF25 /* WorldMapProcess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WorldMapProcess; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1733F8C1DE453A6008EDF25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D1C78DD41DF26CC700B07EAD /* DEM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEM.h; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 				D1733F8C1DE453A6008EDF25 /* main.cpp */,
 				D1C78DD41DF26CC700B07EAD /* DEM.h */,
 				D1C78DD51DF26CE700B07EAD /* DEM.cpp */,
+				D13129571E0926E80058147D /* Precipitation.cpp */,
+				D13129581E0926E80058147D /* Precipitation.h */,
+				D131295A1E092D650058147D /* WorldMapReader.cpp */,
+				D131295B1E092D650058147D /* WorldMapReader.h */,
 			);
 			path = WorldMapProcess;
 			sourceTree = "<group>";
@@ -124,8 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D131295C1E092D650058147D /* WorldMapReader.cpp in Sources */,
 				D1C78DD71DF26CE700B07EAD /* DEM.cpp in Sources */,
 				D1733F8D1DE453A6008EDF25 /* main.cpp in Sources */,
+				D13129591E0926E80058147D /* Precipitation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
